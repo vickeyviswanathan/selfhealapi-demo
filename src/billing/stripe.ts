@@ -3,5 +3,5 @@ import Stripe from "stripe";
 const stripe = new Stripe("sk_test_demo_placeholder");
 
 export async function chargeCustomer(amount: number) {
-  return stripe.charges.create({ amount, currency: "usd" });
+  return stripe.paymentIntents.create({ amount, currency: "usd" });
 }
