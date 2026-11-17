@@ -1,0 +1,9 @@
+{
+  "name": "selfhealapi-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "stripe": "^14.0.0",
+    "@shopify/shopify-api": "^9.0.0"
+  }
+}
